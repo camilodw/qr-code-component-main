@@ -1,0 +1,36 @@
+body{
+    background: hsl(212, 45%, 89%);
+}
+.attribution
+{
+    position:fixed;
+   top: 95%;
+left:50%;
+transform: translate(-50%, -50%);
+}
+.card{
+    background:hsl(0, 0%, 100%);
+    width: 300px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgb(211, 208, 208);
+}
+.card-image img{
+    width:280px;
+    border-radius: 5%;
+    display:block;
+    margin:auto;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.card-text{
+    margin: 10px 15px;
+    text-align: center;
+}
+.card-text-secondary{
+    margin: 10px 15px;
+    text-align: center;
+    color: gray;
+}
